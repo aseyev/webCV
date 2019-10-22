@@ -4,17 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Вспоминаем</title>
+    <title>Web-developer Anton Aseyev</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+
 </head>
 <body>
-<h1>Что такое HTML</h1>
-    <p><strong>HTML</strong> <i>(от англ. HyperText Markup Language — «язык гипертекстовой разметки»)</i> — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц имеют содержание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.</p>
-    <h2>Теги для оформления текста</h2>
-    <p><strong>Strong - выделяет текст жирным начертанием.</strong> Помимо визуально эффекта, имеет смысловое (семантичское) значение. Текст выделенный таким тегом важен по смыслу, при чтении на нем стоит сделать акцент, подчеркнув его значимость.</p>
-    <p><b>Bold - выделяет текст жирным начертанием.</b> Имеет только визуальную нагрузку.</p>
-    <p><em>Em - Emotional.</em> Выделяет текст курсивом. Имеет смысловое значение.</p>
-    <p><i>I - Italic.</i> Выделяет текст курсивом. Имеет только визуальную нагрузку.</p>
-    <p><code>code</code> - используется для обозначения кода в тексте. Например: <code>let x = 1;</code></p>
+    <header class="main-header">
+        <div class="container">
+            <a class="logo-background" href="#">
+                <img src="img/logo.svg" 
+                width="110" height="18" alt="Логотип">
+            </a>
+            <nav class="main-navigation">
+                <ul class="site-navigation">
+                    <li><a href="#">Welcome</a></li>
+                    <li><a href="#">My Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class=" welcome">
+        <div class="container">
+            <h1 class="visually-hidden">CV (curriculum vitae, resume) of Aseyev Anton, web-designer, UI/UX developer, photo editor. Portfolio brief-case included </h1>
+            <div class="welcome-flexbox">
+                <div class="photo-column">
+                    <img src="img/Aseyev CV 600x600.jpg" 
+                    width="110" height="110" alt="Портрет">
+                </div>
+
+                <div class="text-column">
+                    <h2 class="heading-2">Hello! My name is Anton Aseyev​​</h2>
+                    <h3 class="heading-3">I’m a web-designer and UI-developer</h3>
+                    <p> I have more than 15 years experience in graphic design. I was graduated as Engeneer of Informational systems in publishing industry, was learned in design and editing, computer graphics and process development. Now I upgrade my skills in web development and learning how to make mobile apps.</p>
+                    <p>If you need a responsible and attentive junior in a team of experienced UI/UX developers, I will be inexpressibly happy to join! I am currently in Bangkok. Feel free to contact me with any questions.</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon-link">
+                    <img src="img/icons/telegram (1).svg" alt="telegram">
+                </a>
+                <a href="#" class="social-icon-link">
+                    <img src="img/icons/telegram (1).svg" alt="telegram">
+                </a>
+                <a href="#" class="social-icon-link">
+                    <img src="img/icons/telegram (1).svg" alt="telegram">
+                </a>
+                <a href="#" class="social-icon-link">
+                    <img src="img/icons/telegram (1).svg" alt="telegram">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="My-skills">
+        <div class="h2-back">
+            <h2 class="heading-2">My Skills​​</h2>
+        </div>
+        <div class="container">
+            <div class="column-1">
+                <h3 class="heading-3">Web-designer​</h3>
+                <div class="skill-icons">3 pics</div>
+                <p>I have some experience in website development from scratch. Communication with the customer: clarification of the ideas, purposes, wishes. Design from sketch, wireframe, to mock-up and prototype in Figma; development of site page tree, style hierarchy, color management, composition grid, library of elements; production of landing pages in WordPress.</p>
+            </div>
+            <div class="column-2">
+                <h3 class="heading-3">UX/UI developer (Junior)​</h3>
+                <div class="skill-icons">3 pics</div>
+                <p>2</p>
+            </div>
+            <div class="column-3">
+                <h3 class="heading-3">Photo editor (Senior)​​</h3>
+                <div class="skill-icons">3 pics</div>
+                <p>3</p>
+            </div>
+
+        
+        </div>
+    </section>
+    
+
 </body>
 </html>
