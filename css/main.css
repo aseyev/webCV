@@ -83,7 +83,7 @@ h4 {
 
 /* HEADER CSS */
 .main-header {
-    background-color: #ABFF57;
+    background-color: #85C2E3;
     color: #00056D;
 	min-height: 80px;
 	margin-bottom: 60px;
@@ -135,6 +135,7 @@ h4 {
 	    flex-wrap: wrap;
 	-ms-flex-pack: distribute;
 		justify-content: space-between;
+		margin: 0;
 }
 
 .site-navigation a {
@@ -144,7 +145,14 @@ h4 {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	padding-left: 48px;
+	padding: 0 20px;
+	margin-left: 12px;
+	font-weight: 700;	
+	color: #000000;
+	height: 80px;
+}
+.site-navigation a:hover {
+background-color: rgb(140, 206, 241);
 }
 /* -------------GLOBAL INNER SECTIONS STYLES */
 
@@ -181,7 +189,7 @@ section h3 {
 }
 .social-icons a {
     display: inline-block;
-    margin: 2px;
+    margin: 0 12px;
     width: 41px;
     height: 40px;
     font-size: 0;
@@ -190,7 +198,7 @@ section h3 {
 }
 /* ---------------My-Skills */
 .h2-wrapper {
-    background-color: #ABFF57;
+    background-color: #85C2E3;
     min-height: 80px;
 	margin-bottom: 60px;
 	display: flex;
@@ -210,6 +218,25 @@ section h3 {
 .column-3 {
 	max-width: 345px;
 }
+.skill-icons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	 margin: 0;
+	 margin-bottom: 20px;
+}
+.skill-icons a { 
+	display: inline-block;
+    margin: 0 12px;
+    width: 60px;
+    height: 60px;
+    font-size: 0;
+    border-radius: 50%;
+	vertical-align: top;
+}
 /* ------PORTFOLIO */
 .slider-wrapper {
 	display: -webkit-box;
@@ -222,7 +249,7 @@ section h3 {
 }
 /* ----------CONTACTS */
 .contacts {
-	background-color: #ABFF57;
+	background-color: #85C2E3;
 	min-height: 200px;
 	padding-top: 20px;
 }
