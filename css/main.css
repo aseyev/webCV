@@ -159,7 +159,8 @@ background-color: rgb(140, 206, 241);
 section {
 	margin-bottom: 80px;
 }
-section h3 {
+section h3,
+footer h3 {
 	margin-bottom: 20px;
 }
 
@@ -217,6 +218,13 @@ section h3 {
 }
 .column-3 {
 	max-width: 345px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+			align-items: center;
+	flex-direction: column;
 }
 .skill-icons {
 	display: -webkit-box;
@@ -265,10 +273,45 @@ section h3 {
 .slider-arrow {
 	width: 50px;
 }
-
+/* -----------------ABOUT-ME */
+.about-me {
+	margin-bottom: 20px;
+}
 /* ----------CONTACTS */
 .contacts {
-	background-color: #85C2E3;
-	min-height: 200px;
-	padding-top: 20px;
+	/* background-color: #85C2E3; */
+	background: url("/img/footerBG.png") no-repeat;
+	background-size: cover;
+	min-height: 240px;
+	padding: 10px 0;
+
+	/* display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-ms-flex-pack: distribute;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end; */
+}
+.footer-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-ms-flex-pack: distribute;
+		justify-content: space-between;
+	align-items: center;
+	padding-top: 100px;
+}
+footer span {	
+	font-family: 'Merriweather', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+	
 }
